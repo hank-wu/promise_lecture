@@ -1,0 +1,21 @@
+{
+  "name": "promise_lecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "hello": "ts-node index.ts",
+    "promise": "ts-node promise.ts",
+    "fail": "ts-node fail_promise.ts",
+    "success_call": "ts-node success_call.ts",
+    "fail_call": "ts-node fail_call.ts",
+    "problem": "ts-node problem.ts",
+    "async_await": "ts-node async_await.ts",
+    "async_define": "ts-node async_define_promise.ts",
+    "promise_chain": "ts-node promise_chain.ts" 
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
